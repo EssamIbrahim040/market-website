@@ -1,0 +1,54 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.banner img{
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+}
+.banner-text {
+    margin-top: -181px;
+    padding: 10px;
+}
+.active-box {
+    margin-top: 90px;
+}
+
+.active-box .box img {
+    max-width: 140px;
+}
+.about-us ,.service,.clinet,footer{
+    margin-top: 50px;
+}
+.service .box {
+    width: 100%;
+    height: 153px;
+    padding: 8px;
+    background-color: rgb(44, 41, 41);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.clinet {
+    background-color: rgb(198, 189, 189);
+    border-radius: 9px;
+}
+.clinet img {
+    max-width: 130px;
+    margin: 13px;
+    transition: .02s;
+   
+}
+.clinet img:hover {
+    margin-top: -10px;
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    text-transform: capitalize;
+}
+footer a {
+    text-decoration: none;
+    color: rgb(120, 16, 16);
+}
